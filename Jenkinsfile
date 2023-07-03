@@ -4,7 +4,7 @@ pipeline {
             label 'docker-agent-python'
             }
       }
-    triggers {`
+    triggers {
         pollSCM '*5/ * * * *'
     }
     stages {
